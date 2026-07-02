@@ -29,10 +29,10 @@ export function Background() {
 
       {/* animated grid */}
       <div
-        className="absolute inset-0 opacity-[0.16]"
+        className="absolute inset-0 opacity-[0.14]"
         style={{
           backgroundImage:
-            "linear-gradient(to right, rgba(145,94,255,0.4) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,217,255,0.35) 1px, transparent 1px)",
+            "linear-gradient(to right, rgba(255,255,255,0.18) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.14) 1px, transparent 1px)",
           backgroundSize: "60px 60px",
           animation: "grid-drift 20s linear infinite",
           maskImage: "radial-gradient(ellipse at center, black 30%, transparent 78%)",
@@ -40,13 +40,13 @@ export function Background() {
       />
 
       {/* gradient blobs */}
-      <div className="animate-blob absolute -left-32 top-10 h-[28rem] w-[28rem] rounded-full bg-[#915eff] opacity-25 blur-[120px]" />
+      <div className="animate-blob absolute -left-32 top-10 h-[28rem] w-[28rem] rounded-full bg-[#525252] opacity-25 blur-[120px]" />
       <div
-        className="animate-blob absolute -right-24 top-1/3 h-[26rem] w-[26rem] rounded-full bg-[#00d9ff] opacity-20 blur-[120px]"
+        className="animate-blob absolute -right-24 top-1/3 h-[26rem] w-[26rem] rounded-full bg-[#a3a3a3] opacity-20 blur-[120px]"
         style={{ animationDelay: "-6s" }}
       />
       <div
-        className="animate-blob absolute bottom-0 left-1/3 h-[24rem] w-[24rem] rounded-full bg-[#4ade80] opacity-[0.12] blur-[130px]"
+        className="animate-blob absolute bottom-0 left-1/3 h-[24rem] w-[24rem] rounded-full bg-[#d4d4d4] opacity-[0.12] blur-[130px]"
         style={{ animationDelay: "-12s" }}
       />
 

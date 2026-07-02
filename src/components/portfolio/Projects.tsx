@@ -18,7 +18,7 @@ export function Projects() {
             <motion.div
               whileHover={{ y: -6 }}
               transition={{ type: "spring", stiffness: 280, damping: 22 }}
-              className="group relative flex h-full flex-col overflow-hidden rounded-3xl glass-card p-7 transition-shadow duration-300 hover:shadow-[0_0_60px_-18px_#915eff]"
+              className="group relative flex h-full flex-col overflow-hidden rounded-3xl glass-card p-7 transition-shadow duration-300 hover:shadow-[0_0_60px_-18px_var(--glow-primary)]"
             >
               <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-[image:var(--gradient-brand)] opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-30" />
 

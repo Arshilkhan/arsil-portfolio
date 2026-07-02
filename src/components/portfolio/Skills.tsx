@@ -9,9 +9,9 @@ const ACCENT: Record<string, string> = {
 };
 
 const GLOW: Record<string, string> = {
-  primary: "group-hover:shadow-[0_0_40px_-12px_#915eff]",
-  secondary: "group-hover:shadow-[0_0_40px_-12px_#00d9ff]",
-  accent: "group-hover:shadow-[0_0_40px_-12px_#4ade80]",
+  primary: "group-hover:shadow-[0_0_40px_-12px_var(--glow-primary)]",
+  secondary: "group-hover:shadow-[0_0_40px_-12px_var(--glow-secondary)]",
+  accent: "group-hover:shadow-[0_0_40px_-12px_var(--glow-accent)]",
 };
 
 export function Skills() {
