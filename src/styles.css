@@ -6,7 +6,7 @@
 
 /*
  * Kashi — Portfolio design system
- * Dark futuristic theme with blue + purple gradient accents.
+ * Dark greyscale theme: black, charcoal, and subtle grey accents.
  */
 
 @theme inline {
@@ -45,52 +45,58 @@
 :root {
   --radius: 0.9rem;
 
-  /* Deep space navy background */
-  --background: oklch(0.16 0.045 274);
-  --foreground: oklch(0.98 0.005 260);
+  /* Near-black background */
+  --background: oklch(0.12 0 0);
+  --foreground: oklch(0.96 0 0);
 
-  --card: oklch(0.21 0.05 274);
-  --card-foreground: oklch(0.98 0.005 260);
-  --popover: oklch(0.19 0.05 274);
-  --popover-foreground: oklch(0.98 0.005 260);
+  --card: oklch(0.18 0 0);
+  --card-foreground: oklch(0.96 0 0);
+  --popover: oklch(0.16 0 0);
+  --popover-foreground: oklch(0.96 0 0);
 
-  /* Purple #915EFF */
-  --primary: oklch(0.63 0.22 292);
-  --primary-foreground: oklch(0.98 0.005 260);
+  /* Light grey / off-white */
+  --primary: oklch(0.92 0 0);
+  --primary-foreground: oklch(0.12 0 0);
 
-  /* Cyan #00D9FF */
-  --secondary: oklch(0.79 0.15 214);
-  --secondary-foreground: oklch(0.16 0.045 274);
+  /* Medium grey */
+  --secondary: oklch(0.65 0 0);
+  --secondary-foreground: oklch(0.12 0 0);
 
-  --muted: oklch(0.27 0.045 274);
-  --muted-foreground: oklch(0.72 0.03 268);
+  --muted: oklch(0.28 0 0);
+  --muted-foreground: oklch(0.62 0 0);
 
-  /* Green #4ADE80 */
-  --accent: oklch(0.82 0.19 149);
-  --accent-foreground: oklch(0.16 0.045 274);
+  /* Soft light grey */
+  --accent: oklch(0.78 0 0);
+  --accent-foreground: oklch(0.12 0 0);
 
-  --destructive: oklch(0.62 0.24 25);
-  --destructive-foreground: oklch(0.98 0.005 260);
+  --destructive: oklch(0.58 0.2 25);
+  --destructive-foreground: oklch(0.96 0 0);
 
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 14%);
-  --ring: oklch(0.63 0.22 292);
+  --ring: oklch(0.92 0 0);
 
   /* Gradients & effects */
-  --gradient-primary: linear-gradient(135deg, oklch(0.63 0.22 292), oklch(0.79 0.15 214));
-  --gradient-brand: linear-gradient(120deg, #915eff 0%, #00d9ff 100%);
-  --gradient-brand-tri: linear-gradient(120deg, #915eff 0%, #00d9ff 55%, #4ade80 100%);
-  --gradient-text: linear-gradient(120deg, #b79bff 0%, #00d9ff 100%);
+  --gradient-primary: linear-gradient(135deg, oklch(0.25 0 0), oklch(0.65 0 0));
+  --gradient-brand: linear-gradient(135deg, #262626 0%, #a3a3a3 100%);
+  --gradient-brand-tri: linear-gradient(135deg, #171717 0%, #525252 55%, #d4d4d4 100%);
+  --gradient-text: linear-gradient(120deg, #a3a3a3 0%, #f5f5f5 100%);
   --glass-bg: oklch(1 0 0 / 5%);
   --glass-border: oklch(1 0 0 / 12%);
-  --shadow-glow: 0 0 60px -12px oklch(0.63 0.22 292 / 45%);
-  --shadow-glow-cyan: 0 0 50px -14px oklch(0.79 0.15 214 / 45%);
-  --shadow-card: 0 20px 50px -20px oklch(0.1 0.04 274 / 80%);
+  --shadow-glow: 0 0 60px -12px oklch(0.92 0 0 / 45%);
+  --shadow-glow-secondary: 0 0 50px -14px oklch(0.65 0 0 / 45%);
+  --shadow-glow-accent: 0 0 50px -14px oklch(0.78 0 0 / 45%);
+  --shadow-card: 0 20px 50px -20px oklch(0.08 0 0 / 80%);
+
+  /* Glow colors for arbitrary Tailwind shadows */
+  --glow-primary: oklch(0.92 0 0 / 55%);
+  --glow-secondary: oklch(0.65 0 0 / 55%);
+  --glow-accent: oklch(0.78 0 0 / 55%);
 }
 
 /* Force dark scheme (single theme) */
 .dark {
-  --background: oklch(0.16 0.045 274);
+  --background: oklch(0.12 0 0);
 }
 
 @theme inline {
@@ -120,7 +126,7 @@
   }
 
   ::selection {
-    background: color-mix(in oklab, #915eff 45%, transparent);
+    background: oklch(1 0 0 / 25%);
     color: white;
   }
 
@@ -129,7 +135,7 @@
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: oklch(0.16 0.045 274);
+    background: oklch(0.12 0 0);
   }
   ::-webkit-scrollbar-thumb {
     background: var(--gradient-brand);
