@@ -84,7 +84,7 @@ export function Contact() {
           <a
             href="/resume.pdf"
             download
-            className="inline-flex items-center justify-center gap-2 rounded-2xl bg-[image:var(--gradient-brand)] px-6 py-4 text-sm font-semibold text-background shadow-[0_0_28px_-8px_#915eff] transition-transform hover:scale-[1.02]"
+            className="inline-flex items-center justify-center gap-2 rounded-2xl bg-[image:var(--gradient-brand)] px-6 py-4 text-sm font-semibold text-background shadow-[0_0_28px_-8px_var(--glow-primary)] transition-transform hover:scale-[1.02]"
           >
             <Download size={18} /> Download Resume
           </a>
@@ -147,7 +147,7 @@ export function Contact() {
             <button
               type="submit"
               disabled={sending}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[image:var(--gradient-brand)] px-6 py-3.5 text-sm font-semibold text-background shadow-[0_0_28px_-8px_#00d9ff] transition-transform hover:scale-[1.01] disabled:opacity-70"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[image:var(--gradient-brand)] px-6 py-3.5 text-sm font-semibold text-background shadow-[0_0_28px_-8px_var(--glow-secondary)] transition-transform hover:scale-[1.01] disabled:opacity-70"
             >
               <Send size={17} /> {sending ? "Sending..." : "Send Message"}
             </button>

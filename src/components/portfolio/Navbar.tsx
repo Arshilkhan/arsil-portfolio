@@ -25,7 +25,7 @@ export function Navbar() {
     >
       <nav className="section-shell flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 font-display text-lg font-bold">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-[image:var(--gradient-brand)] text-background shadow-[0_0_20px_-4px_#915eff]">
+          <span className="grid h-9 w-9 place-items-center rounded-xl bg-[image:var(--gradient-brand)] text-background shadow-[0_0_20px_-4px_var(--glow-primary)]">
             K
           </span>
           <span className="hidden sm:block">
@@ -48,7 +48,7 @@ export function Navbar() {
 
         <a
           href="#contact"
-          className="hidden rounded-full bg-[image:var(--gradient-brand)] px-5 py-2.5 text-sm font-semibold text-background shadow-[0_0_24px_-6px_#00d9ff] transition-transform hover:scale-105 md:inline-block"
+          className="hidden rounded-full bg-[image:var(--gradient-brand)] px-5 py-2.5 text-sm font-semibold text-background shadow-[0_0_24px_-6px_var(--glow-secondary)] transition-transform hover:scale-105 md:inline-block"
         >
           Hire Me
         </a>
