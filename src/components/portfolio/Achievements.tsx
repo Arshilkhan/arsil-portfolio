@@ -18,7 +18,7 @@ export function Achievements() {
               <motion.div
                 whileHover={{ y: -6 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                className="group h-full rounded-3xl glass-card p-6 text-center transition-shadow duration-300 hover:shadow-[0_0_44px_-14px_#00d9ff]"
+                className="group h-full rounded-3xl glass-card p-6 text-center transition-shadow duration-300 hover:shadow-[0_0_44px_-14px_var(--glow-secondary)]"
               >
                 <span className="mx-auto grid h-14 w-14 place-items-center rounded-2xl bg-[image:var(--gradient-brand)] text-2xl text-background">
                   <Icon />

@@ -69,7 +69,7 @@ export function About() {
                 title={label}
                 className="group flex flex-col items-center gap-1.5"
               >
-                <span className="grid h-12 w-12 place-items-center rounded-xl glass text-xl text-muted-foreground transition-all duration-300 group-hover:-translate-y-1 group-hover:text-secondary group-hover:shadow-[0_0_20px_-6px_#00d9ff]">
+                <span className="grid h-12 w-12 place-items-center rounded-xl glass text-xl text-muted-foreground transition-all duration-300 group-hover:-translate-y-1 group-hover:text-secondary group-hover:shadow-[0_0_20px_-6px_var(--glow-secondary)]">
                   <Icon />
                 </span>
                 <span className="text-[10px] text-muted-foreground">{label}</span>

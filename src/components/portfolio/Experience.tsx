@@ -12,7 +12,7 @@ export function Experience() {
 
       <div className="relative mx-auto max-w-3xl">
         {/* vertical line */}
-        <div className="absolute left-5 top-2 h-full w-px bg-[image:linear-gradient(to_bottom,#915eff,#00d9ff,#4ade80)] md:left-1/2" />
+        <div className="absolute left-5 top-2 h-full w-px bg-gradient-to-b from-primary via-secondary to-accent md:left-1/2" />
 
         <div className="space-y-10">
           {TIMELINE.map((item, i) => {
@@ -27,7 +27,7 @@ export function Experience() {
                 >
                   {/* node */}
                   <span
-                    className={`absolute left-5 top-1 z-10 grid h-10 w-10 -translate-x-1/2 place-items-center rounded-full bg-[image:var(--gradient-brand)] text-background shadow-[0_0_20px_-4px_#00d9ff] md:left-auto ${
+                    className={`absolute left-5 top-1 z-10 grid h-10 w-10 -translate-x-1/2 place-items-center rounded-full bg-[image:var(--gradient-brand)] text-background shadow-[0_0_20px_-4px_var(--glow-secondary)] md:left-auto ${
                       left ? "md:-right-5 md:translate-x-1/2" : "md:-left-5 md:-translate-x-1/2"
                     }`}
                   >

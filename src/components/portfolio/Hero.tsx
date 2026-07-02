@@ -82,7 +82,7 @@ export function Hero() {
             <a
               href="/resume.pdf"
               download
-              className="inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-brand)] px-6 py-3 text-sm font-semibold text-background shadow-[0_0_28px_-6px_#915eff] transition-transform hover:scale-105"
+              className="inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-brand)] px-6 py-3 text-sm font-semibold text-background shadow-[0_0_28px_-6px_var(--glow-primary)] transition-transform hover:scale-105"
             >
               <Download size={18} /> Download Resume
             </a>
