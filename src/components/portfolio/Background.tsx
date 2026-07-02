@@ -1,19 +1,26 @@
 import { motion } from "framer-motion";
 import { useMemo } from "react";
 
+// Deterministic pseudo-random so SSR and client render identical particles.
+function rand(seed: number) {
+  const v = Math.sin(seed * 127.1 + 311.7) * 43758.5453;
+  return v - Math.floor(v);
+}
+
 export function Background() {
   const particles = useMemo(
     () =>
       Array.from({ length: 26 }).map((_, i) => ({
         id: i,
-        left: Math.random() * 100,
-        top: Math.random() * 100,
-        size: Math.random() * 3 + 1,
-        duration: Math.random() * 10 + 8,
-        delay: Math.random() * 6,
+        left: rand(i + 1) * 100,
+        top: rand(i + 8) * 100,
+        size: rand(i + 15) * 3 + 1,
+        duration: rand(i + 22) * 10 + 8,
+        delay: rand(i + 29) * 6,
       })),
     [],
   );
+
 
   return (
     <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
