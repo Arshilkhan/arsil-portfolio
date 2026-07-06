@@ -21,7 +21,7 @@ const CHANNELS = [
   {
     icon: FaGithub,
     label: "GitHub",
-    value: "Arshil",
+    value: "Arsil",
     href: CONTACT.github,
   },
 ];
