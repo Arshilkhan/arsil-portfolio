@@ -61,7 +61,7 @@ export function Hero() {
           </span>
 
           <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-6xl">
-            Hi, I'm <span className="gradient-text">Kashi</span>
+            Hi, I'm <span className="gradient-text">Arsil</span>
           </h1>
 
           <p className="mt-4 min-h-[2.2rem] font-display text-lg font-semibold text-foreground/90 sm:text-2xl">
