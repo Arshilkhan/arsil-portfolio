@@ -77,7 +77,7 @@ export function Contact() {
               <p className="text-xs uppercase tracking-widest text-muted-foreground">
                 Location
               </p>
-              <p className="font-medium">Available Worldwide • Remote</p>
+              <p className="font-medium">Thane</p>
             </div>
           </div>
 
