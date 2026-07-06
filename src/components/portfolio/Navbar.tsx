@@ -26,10 +26,10 @@ export function Navbar() {
       <nav className="section-shell flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 font-display text-lg font-bold">
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-[image:var(--gradient-brand)] text-background shadow-[0_0_20px_-4px_var(--glow-primary)]">
-            K
+            A
           </span>
           <span className="hidden sm:block">
-            Kashi<span className="text-secondary">.</span>
+            Arsil<span className="text-secondary">.</span>
           </span>
         </a>
 
