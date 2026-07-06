@@ -247,7 +247,7 @@ export const COURSEWORK = [
 ];
 
 export const CONTACT = {
-  email: "kashi@example.com",
-  linkedin: "https://linkedin.com/in/kashi",
-  github: "https://github.com/kashi",
+  email: "arshilkhan8828@gmail.com",
+  linkedin: "https://www.linkedin.com/in/arshil-khan-99460221a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  github: "https://github.com/Arshilkhan",
 };
