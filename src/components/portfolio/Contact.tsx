@@ -15,13 +15,13 @@ const CHANNELS = [
   {
     icon: FaLinkedin,
     label: "LinkedIn",
-    value: "/in/kashi",
+    value: "Arsil",
     href: CONTACT.linkedin,
   },
   {
     icon: FaGithub,
     label: "GitHub",
-    value: "@kashi",
+    value: "Arshil",
     href: CONTACT.github,
   },
 ];
