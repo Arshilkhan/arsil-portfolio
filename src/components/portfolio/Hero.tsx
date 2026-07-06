@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Download, Mail, FolderGit2, ArrowDown } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import profile from "@/assets/profile.jpg";
+import profile from "@/assets/profile_.jpeg";
 import { CONTACT } from "./data";
 
 const ROLES = [
