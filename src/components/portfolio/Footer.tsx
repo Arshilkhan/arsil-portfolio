@@ -8,7 +8,7 @@ export function Footer() {
       <div className="section-shell flex flex-col items-center justify-between gap-6 md:flex-row">
         <div className="text-center md:text-left">
           <a href="#home" className="font-display text-lg font-bold">
-            Kashi<span className="text-secondary">.</span>
+            Arsil<span className="text-secondary">.</span>
           </a>
           <p className="mt-1 text-sm text-muted-foreground">
             AI & Machine Learning Engineer • Deep Learning • IoT • Full Stack
