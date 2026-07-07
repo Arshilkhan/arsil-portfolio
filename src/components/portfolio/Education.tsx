@@ -15,7 +15,7 @@ export function Education() {
             </span>
             <div className="min-w-0">
               <h3 className="text-xl font-semibold">
-                Final Year Engineering Student
+                Computer Eengineering
               </h3>
               <p className="mt-1 text-sm text-secondary">
                 Bachelor of Engineering
