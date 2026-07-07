@@ -25,7 +25,7 @@ export function About() {
           <p className="text-lg leading-relaxed text-foreground/90">
             I'm a{" "}
             <span className="font-semibold text-secondary">
-              final-year engineering student
+              Junior Software Developer
             </span>{" "}
             with a strong interest in Artificial Intelligence and a passion for
             building systems that learn. My work spans{" "}
