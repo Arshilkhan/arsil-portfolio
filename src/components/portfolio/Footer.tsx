@@ -52,7 +52,7 @@ export function Footer() {
       </div>
 
       <p className="mt-8 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Kashi. Designed & built with passion.
+        © {new Date().getFullYear()} Arsil. Designed & built with passion.
       </p>
     </footer>
   );
