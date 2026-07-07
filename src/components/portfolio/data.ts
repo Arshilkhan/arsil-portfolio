@@ -187,13 +187,13 @@ export const TIMELINE = [
   },
   {
     title: "Deep Learning Projects",
-    period: "2024 — Present",
+    period: "2025 — 2026",
     body: "Designed and benchmarked CNN and transfer-learning models across computer vision tasks including fall detection and image classification.",
     icon: TbCpu,
   },
   {
     title: "IoT & Wireless Sensing",
-    period: "2023 — 2024",
+    period: "2025 — 2026",
     body: "Built WiFi CSI acquisition pipelines on ESP32, developing signal processing and activity-recognition systems from raw sensor data.",
     icon: FaWifi,
   },
