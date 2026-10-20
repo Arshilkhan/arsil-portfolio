@@ -124,17 +124,6 @@ export function Projects() {
                     {/* Project actions */}
                     {(liveUrl || repoUrl) && (
                       <div className="mt-6 flex flex-wrap gap-3">
-                        {liveUrl && (
-                          <a
-                            href={liveUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center justify-center gap-2 rounded-xl bg-secondary px-4 py-2.5 text-sm font-semibold text-secondary-foreground transition-all hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2"
-                          >
-                            Live Demo
-                            <ExternalLink size={15} />
-                          </a>
-                        )}
 
                         {repoUrl && (
                           <a

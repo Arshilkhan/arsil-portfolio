@@ -203,8 +203,6 @@ export const PROJECTS = [
             "Git",
             "GitHub",
         ],
-        liveUrl: "",
-        repoUrl: "",
     },
 
     // Business websites
@@ -232,8 +230,6 @@ export const PROJECTS = [
             "DNS Configuration",
             "Responsive Design",
         ],
-        liveUrl: "",
-        repoUrl: "",
     },
     {
         title: "Gilpix Photography",
@@ -258,8 +254,6 @@ export const PROJECTS = [
             "Web Hosting",
             "Custom Domains",
         ],
-        liveUrl: "www.gilpix.in",
-        repoUrl: "",
     },
     {
         title: "Abjad Marketing Website",
@@ -285,8 +279,6 @@ export const PROJECTS = [
             "Git",
             "GitHub",
         ],
-        liveUrl: "www.abjadengineeringworks.in",
-        repoUrl: "",
     },
 
     // AI and research projects
@@ -313,8 +305,6 @@ export const PROJECTS = [
             "RTT",
             "AoA",
         ],
-        liveUrl: "",
-        repoUrl: "",
     },
     {
         title: "WiFi CSI Human Activity Recognition",
@@ -334,8 +324,6 @@ export const PROJECTS = [
             "Signal Processing",
             "PyTorch",
         ],
-        liveUrl: "",
-        repoUrl: "",
     },
     {
         title: "Fall Detection using Deep Learning",
@@ -354,8 +342,6 @@ export const PROJECTS = [
             "OpenCV",
             "Transfer Learning",
         ],
-        liveUrl: "",
-        repoUrl: "",
     },
 
     // Full-stack application
@@ -377,8 +363,6 @@ export const PROJECTS = [
             "PostgreSQL",
             "JavaScript",
         ],
-        liveUrl: "",
-        repoUrl: "",
     },
 ];
 
