@@ -16,8 +16,19 @@ import {
     SiGithub,
     SiJupyter,
     SiGooglecolab,
+    SiReact,
+    SiTypescript,
+    SiNodedotjs,
+    SiNumpy,
+    SiSupabase,
+    SiCloudflare,
+    SiVite,
+    SiMysql,
+    SiGithubactions,
+    SiVercel,
+    SiTailwindcss,
 } from "react-icons/si";
-import { FaJava, FaDatabase, FaBrain, FaWifi, FaCode, FaTools } from "react-icons/fa";
+import { FaJava, FaDatabase, FaBrain, FaWifi, FaCode, FaTools, FaNetworkWired } from "react-icons/fa";
 import { TbBinaryTree, TbCpu } from "react-icons/tb";
 import type { IconType } from "react-icons";
 
@@ -149,24 +160,33 @@ export const SKILL_GROUPS: {
 
 export const TECH_ICONS: { icon: IconType; label: string }[] = [
     { icon: SiPython, label: "Python" },
+    { icon: SiCplusplus, label: "C++" },
+    { icon: FaJava, label: "Java" },
+    { icon: SiPhp, label: "PHP" },
+    { icon: SiHtml5, label: "HTML5" },
+    { icon: SiCss, label: "CSS3" },
+    { icon: SiJavascript, label: "JavaScript" },
+    { icon: SiTypescript, label: "TypeScript" },
+    { icon: SiLaravel, label: "Laravel" },
+    { icon: SiReact, label: "React" },
+    { icon: SiNodedotjs, label: "Node.js" },
+    { icon: SiMysql, label: "MySQL" },
+    { icon: SiPostgresql, label: "PostgreSQL" },
+    { icon: SiGit, label: "Git" },
+    { icon: SiGithub, label: "GitHub" },
+    { icon: SiGithubactions, label: "GitHub Actions" },
     { icon: SiPytorch, label: "PyTorch" },
     { icon: SiTensorflow, label: "TensorFlow" },
     { icon: SiScikitlearn, label: "Scikit-Learn" },
     { icon: SiOpencv, label: "OpenCV" },
-    { icon: SiCplusplus, label: "C++" },
-    { icon: FaJava, label: "Java" },
-    { icon: SiJavascript, label: "JavaScript" },
-    { icon: SiLaravel, label: "Laravel" },
-    { icon: SiPhp, label: "PHP" },
-    { icon: SiPostgresql, label: "PostgreSQL" },
     { icon: SiEspressif, label: "ESP32" },
-    { icon: SiHtml5, label: "HTML5" },
-    { icon: SiCss, label: "CSS3" },
-    { icon: SiGit, label: "Git" },
-    { icon: SiGithub, label: "GitHub" },
     { icon: SiJupyter, label: "Jupyter" },
+    { icon: SiNumpy, label: "NumPy" },
+    { icon: SiSupabase, label: "Supabase" },
     { icon: SiGooglecolab, label: "Colab" },
-    { icon: FaDatabase, label: "SQL" },
+    { icon: SiCloudflare, label: "Cloudflare" },
+    { icon: SiVercel, label: "Vercel" },
+    { icon: FaNetworkWired, label: "REST APIs" },
 ];
 
 

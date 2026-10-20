@@ -11,25 +11,25 @@ import { useState } from "react";
 import { Reveal, SectionHeading } from "./Reveal";
 import { PROJECTS } from "./data";
 
-const [expandedProjects, setExpandedProjects] = useState<Set<string>>(
-  () => new Set()
-);
-
-const toggleProjectTech = (projectTitle: string) => {
-  setExpandedProjects((current) => {
-    const next = new Set(current);
-
-    if (next.has(projectTitle)) {
-      next.delete(projectTitle);
-    } else {
-      next.add(projectTitle);
-    }
-
-    return next;
-  });
-};
 
 export function Projects() {
+  const [expandedProjects, setExpandedProjects] = useState<Set<string>>(
+    () => new Set()
+  );
+
+  const toggleProjectTech = (projectTitle: string) => {
+    setExpandedProjects((current) => {
+      const next = new Set(current);
+
+      if (next.has(projectTitle)) {
+        next.delete(projectTitle);
+      } else {
+        next.add(projectTitle);
+      }
+
+      return next;
+    });
+  };
   return (
     <section
       id="projects"
@@ -57,7 +57,7 @@ export function Projects() {
               key={project.title}
               delay={i * 0.08}
               as="article"
-              className={isFeatured ? "md:col-span-2" : ""}
+              className={`h-full ${isFeatured ? "md:col-span-2" : ""}`}
             >
               <motion.div
                 whileHover={{ y: -6 }}
@@ -118,10 +118,9 @@ export function Projects() {
                     </div>
                   </div>
 
-
                   {/* Technology stack */}
                   <div
-                    className={`mt-7 flex min-w-0 flex-col ${isFeatured ? "md:mt-0" : ""
+                    className={`mt-auto flex min-w-0 flex-col pt-7 ${isFeatured ? "md:mt-0 md:pt-0" : ""
                       }`}
                   >
                     {isFeatured && (

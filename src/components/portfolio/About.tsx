@@ -20,7 +20,7 @@ export function About() {
         title="Turning research into intelligent systems"
       />
 
-      <div className="grid gap-8 lg:grid-cols-[1.4fr_1fr]">
+      <div className="grid grid-cols-1 gap-8">
         <Reveal className="glass-card rounded-3xl p-8">
           <p className="text-lg leading-relaxed text-foreground/90">
             I'm a{" "}
@@ -62,7 +62,7 @@ export function About() {
           <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
             Tech I work with
           </h3>
-          <div className="mt-6 grid grid-cols-4 gap-4 sm:grid-cols-5 lg:grid-cols-4">
+          <div className="mt-6 grid grid-cols-3 gap-x-4 gap-y-6 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9 xl:grid-cols-10">
             {TECH_ICONS.map(({ icon: Icon, label }) => (
               <div
                 key={label}
