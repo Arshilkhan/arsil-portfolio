@@ -119,62 +119,180 @@ export const TECH_ICONS: { icon: IconType; label: string }[] = [
   { icon: FaDatabase, label: "SQL" },
 ];
 
+
 export const PROJECTS = [
+  // Business applications
+  {
+    title: "Abjad ERP",
+    tag: "Enterprise Application",
+    description:
+      "A full-stack ERP platform for managing business operations, including invoices, quotations, challans, customers, products, inventory, purchases, payments, and reports. Developed with database-backed workflows, role-based access, and separate development and production environments.",
+    features: [
+      "Invoice & Challan Management",
+      "Inventory Management",
+      "Customer & Product Management",
+      "Role-Based Access",
+      "Database Integration",
+      "Dev & Production Environments",
+    ],
+    tech: [
+      "React",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "Vercel",
+    ],
+    liveUrl: "",
+    repoUrl: "https://github.com/Arshilkhan/abjad-erp-live",
+  },
+
+  // Business websites
+  {
+    title: "Happy Fabric",
+    tag: "Business Website",
+    description:
+      "A modern website for a fabric business, featuring international and Indian textile brands, dedicated brand pages, and a structured fabric catalogue to help customers explore available collections.",
+    features: [
+      "Fabric Catalogue",
+      "Brand-specific Pages",
+      "Product Discovery",
+      "Responsive Design",
+      "Multi-brand Showcase",
+    ],
+    tech: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+    ],
+    liveUrl: "https://shriyamindia.in",
+    repoUrl: "",
+  },
+  {
+    title: "Gilpix Photography",
+    tag: "Photography Portfolio",
+    description:
+      "A photography website project focused on showcasing wedding photography, presenting visual work through an engaging portfolio, and creating a polished online identity for the photography brand.",
+    features: [
+      "Photography Portfolio",
+      "Visual Storytelling",
+      "Responsive Layout",
+      "Brand Presentation",
+    ],
+    tech: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "CSS",
+    ],
+    liveUrl: "",
+    repoUrl: "",
+  },
+  {
+    title: "Abjad Marketing Website",
+    tag: "Marketing Website",
+    description:
+      "A standalone marketing website developed to establish the Abjad brand online, communicate its offerings, and provide visitors with a clear, responsive browsing experience.",
+    features: [
+      "Brand Presentation",
+      "Responsive UI",
+      "Service Showcase",
+      "Website Deployment",
+    ],
+    tech: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+    ],
+    liveUrl: "",
+    repoUrl: "",
+  },
+
+  // AI and research projects
   {
     title: "TriModalTransformer Indoor Positioning System",
     tag: "Research",
     description:
-      "Transformer-based indoor localization framework using WiFi CSI, RTT, and Angle of Arrival (AoA). Integrated Transformer feature fusion, Federated Learning, and Meta Learning to improve accuracy while preserving user privacy.",
+      "A transformer-based indoor localization framework using WiFi CSI, RTT, and Angle of Arrival (AoA). Combines multimodal feature fusion, federated learning, and meta-learning to investigate accurate, privacy-preserving indoor positioning.",
     features: [
       "Transformer Fusion",
       "Federated Learning",
       "Meta Learning",
       "Indoor Localization",
-      "AI-based Positioning",
+      "Multimodal Learning",
     ],
-    tech: ["Python", "PyTorch", "Transformers", "Deep Learning"],
+    tech: [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Deep Learning",
+    ],
+    liveUrl: "",
+    repoUrl: "",
   },
   {
     title: "WiFi CSI Human Activity Recognition",
     tag: "Wireless AI",
     description:
-      "Activity recognition system using ESP32-generated WiFi CSI signals. Built preprocessing pipelines, signal filtering, feature extraction, and classification models to recognize walking, sitting, standing, and jumping.",
+      "An activity recognition system using WiFi Channel State Information collected with ESP32 hardware. Includes signal preprocessing, filtering, feature extraction, and classification of human activities.",
     features: [
       "CSI Signal Processing",
-      "ESP32",
+      "ESP32 Data Collection",
       "Feature Engineering",
       "Deep Learning",
       "Activity Classification",
     ],
-    tech: ["Python", "ESP-IDF", "Signal Processing", "PyTorch"],
+    tech: [
+      "Python",
+      "ESP-IDF",
+      "Signal Processing",
+      "PyTorch",
+    ],
+    liveUrl: "",
+    repoUrl: "",
   },
   {
     title: "Fall Detection using Deep Learning",
     tag: "Computer Vision",
     description:
-      "Multiple CNN-based fall detection models using image datasets. Compared Simple CNN, Complex CNN, ResNet18, EfficientNet-B0, and DenseNet121 for thorough performance evaluation.",
+      "A comparative deep learning project evaluating CNN architectures for image-based fall detection, including custom CNNs, ResNet18, EfficientNet-B0, and DenseNet121.",
     features: [
       "CNN Architectures",
       "Model Benchmarking",
       "Transfer Learning",
-      "Image Datasets",
-      "Deep Learning",
+      "Image Processing",
+      "Performance Evaluation",
     ],
-    tech: ["PyTorch", "OpenCV", "Transfer Learning"],
+    tech: [
+      "PyTorch",
+      "OpenCV",
+      "Transfer Learning",
+    ],
+    liveUrl: "",
+    repoUrl: "",
   },
+
+  // Full-stack application
   {
     title: "Attendance Management System",
     tag: "Full Stack",
     description:
-      "Converted a legacy PHP application into a modern Laravel-based web app with PostgreSQL and role-based authentication for Admin, Teacher, and Student.",
+      "Modernized a legacy PHP attendance application into a Laravel-based web application with PostgreSQL, role-based authentication, and separate workflows for administrators, teachers, and students.",
     features: [
       "Laravel Migration",
-      "Role-based Auth",
-      "PostgreSQL",
-      "Modern UI",
-      "Legacy Refactor",
+      "Role-Based Authentication",
+      "PostgreSQL Integration",
+      "Legacy Code Modernization",
+      "Multi-role Workflows",
     ],
-    tech: ["Laravel", "PHP", "PostgreSQL", "JavaScript"],
+    tech: [
+      "Laravel",
+      "PHP",
+      "PostgreSQL",
+      "JavaScript",
+    ],
+    liveUrl: "",
+    repoUrl: "",
   },
 ];
 
