@@ -7,7 +7,6 @@ import { CONTACT } from "./data";
 
 const ROLES = [
   "AI & Machine Learning Engineer",
-  "Deep Learning Practitioner",
   "Computer Vision Engineer",
   "IoT & Wireless Sensing Researcher",
   "Full Stack Developer",
