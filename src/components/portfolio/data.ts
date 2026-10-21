@@ -158,38 +158,6 @@ export const SKILL_GROUPS: {
 
     ];
 
-export const TECH_ICONS: { icon: IconType; label: string }[] = [
-    { icon: SiPython, label: "Python" },
-    { icon: SiCplusplus, label: "C++" },
-    { icon: FaJava, label: "Java" },
-    { icon: SiPhp, label: "PHP" },
-    { icon: SiHtml5, label: "HTML5" },
-    { icon: SiCss, label: "CSS3" },
-    { icon: SiJavascript, label: "JavaScript" },
-    { icon: SiTypescript, label: "TypeScript" },
-    { icon: SiLaravel, label: "Laravel" },
-    { icon: SiReact, label: "React" },
-    { icon: SiNodedotjs, label: "Node.js" },
-    { icon: SiMysql, label: "MySQL" },
-    { icon: SiPostgresql, label: "PostgreSQL" },
-    { icon: SiGit, label: "Git" },
-    { icon: SiGithub, label: "GitHub" },
-    { icon: SiGithubactions, label: "GitHub Actions" },
-    { icon: SiPytorch, label: "PyTorch" },
-    { icon: SiTensorflow, label: "TensorFlow" },
-    { icon: SiScikitlearn, label: "Scikit-Learn" },
-    { icon: SiOpencv, label: "OpenCV" },
-    { icon: SiEspressif, label: "ESP32" },
-    { icon: SiJupyter, label: "Jupyter" },
-    { icon: SiNumpy, label: "NumPy" },
-    { icon: SiSupabase, label: "Supabase" },
-    { icon: SiGooglecolab, label: "Colab" },
-    { icon: SiCloudflare, label: "Cloudflare" },
-    { icon: SiVercel, label: "Vercel" },
-    { icon: FaNetworkWired, label: "REST APIs" },
-];
-
-
 export const PROJECTS = [
     // Business applications
     {
