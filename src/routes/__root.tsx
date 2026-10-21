@@ -77,21 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Kashi — AI & Machine Learning Engineer" },
+      { title: "Arsil — AI & Machine Learning Engineer" },
       {
         name: "description",
         content:
-          "Kashi — AI & Machine Learning Engineer specializing in Deep Learning, Computer Vision, Wireless Sensing, IoT, and Full Stack Development.",
+          "Arsil — AI & Machine Learning Engineer specializing in Deep Learning, Computer Vision, Wireless Sensing, IoT, and Full Stack Development.",
       },
-      { name: "author", content: "Kashi" },
-      { property: "og:title", content: "Kashi — AI & Machine Learning Engineer" },
+      { name: "author", content: "Arsil" },
+      { property: "og:title", content: "Arsil — AI & Machine Learning Engineer" },
       {
         property: "og:description",
         content:
           "AI & ML engineer building intelligent systems with Deep Learning, Computer Vision, WiFi CSI sensing, and modern full stack tooling.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Kashi Portfolio" },
+      { property: "og:site_name", content: "Arsil Portfolio" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
