@@ -354,33 +354,6 @@ export const PROJECTS = [
     },
 ];
 
-export const TIMELINE = [
-    {
-        title: "AI Research Projects",
-        period: "Ongoing",
-        body: "Leading research on transformer-based multimodal fusion, federated learning, and meta learning for privacy-preserving indoor positioning.",
-        icon: FaBrain,
-    },
-    {
-        title: "Deep Learning Projects",
-        period: "2025 — 2026",
-        body: "Designed and benchmarked CNN and transfer-learning models across computer vision tasks including fall detection and image classification.",
-        icon: TbCpu,
-    },
-    {
-        title: "IoT & Wireless Sensing",
-        period: "2025 — 2026",
-        body: "Built WiFi CSI acquisition pipelines on ESP32, developing signal processing and activity-recognition systems from raw sensor data.",
-        icon: FaWifi,
-    },
-    {
-        title: "Full Stack Development",
-        period: "2023 — Present",
-        body: "Delivered end-to-end web applications with Laravel and PostgreSQL, including role-based platforms and legacy system modernization.",
-        icon: TbBinaryTree,
-    },
-];
-
 export const ACHIEVEMENTS = [
     {
         title: "AI & Deep Learning Projects",
