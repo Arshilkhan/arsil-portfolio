@@ -42,10 +42,9 @@
   --font-display: "Poppins", "Inter", ui-sans-serif, sans-serif;
 }
 
-:root {
+/* :root {
   --radius: 0.9rem;
 
-  /* Near-black background */
   --background: oklch(0.12 0 0);
   --foreground: oklch(0.96 0 0);
 
@@ -54,18 +53,15 @@
   --popover: oklch(0.16 0 0);
   --popover-foreground: oklch(0.96 0 0);
 
-  /* Light grey / off-white */
   --primary: oklch(0.92 0 0);
   --primary-foreground: oklch(0.12 0 0);
 
-  /* Medium grey */
   --secondary: oklch(0.65 0 0);
   --secondary-foreground: oklch(0.12 0 0);
 
   --muted: oklch(0.28 0 0);
   --muted-foreground: oklch(0.62 0 0);
 
-  /* Soft light grey */
   --accent: oklch(0.78 0 0);
   --accent-foreground: oklch(0.12 0 0);
 
@@ -76,7 +72,6 @@
   --input: oklch(1 0 0 / 14%);
   --ring: oklch(0.92 0 0);
 
-  /* Gradients & effects */
   --gradient-primary: linear-gradient(135deg, oklch(0.25 0 0), oklch(0.65 0 0));
   --gradient-brand: linear-gradient(135deg, #262626 0%, #a3a3a3 100%);
   --gradient-brand-tri: linear-gradient(135deg, #171717 0%, #525252 55%, #d4d4d4 100%);
@@ -88,15 +83,83 @@
   --shadow-glow-accent: 0 0 50px -14px oklch(0.78 0 0 / 45%);
   --shadow-card: 0 20px 50px -20px oklch(0.08 0 0 / 80%);
 
-  /* Glow colors for arbitrary Tailwind shadows */
   --glow-primary: oklch(0.92 0 0 / 55%);
   --glow-secondary: oklch(0.65 0 0 / 55%);
   --glow-accent: oklch(0.78 0 0 / 55%);
 }
 
-/* Force dark scheme (single theme) */
 .dark {
   --background: oklch(0.12 0 0);
+} */
+
+:root {
+  --radius: 0.9rem;
+
+  --background: #F5F6F8;
+  --foreground: #20242C;
+
+  --card: #FFFFFF;
+  --card-foreground: #20242C;
+  --popover: #FFFFFF;
+  --popover-foreground: #20242C;
+
+  --primary: #4567C7;
+  --primary-foreground: #FFFFFF;
+
+  --secondary: #EEF1F7;
+  --secondary-foreground: #46536B;
+
+  --muted: #EEF1F7;
+  --muted-foreground: #687181;
+
+  --accent: #4567C7;
+  --accent-foreground: #FFFFFF;
+
+  --destructive: oklch(0.58 0.2 25);
+  --destructive-foreground: #FFFFFF;
+
+  --border: #E1E5EB;
+  --input: #E1E5EB;
+  --ring: #4567C7;
+
+  --gradient-primary: linear-gradient(135deg, #EEF1F7, #FFFFFF);
+  --gradient-brand: linear-gradient(135deg, #4567C7 0%, #8FA4E2 100%);
+  --gradient-brand-tri: linear-gradient(
+    135deg, #4567C7 0%, #8FA4E2 55%, #EEF1F7 100%
+  );
+  --gradient-text: linear-gradient(120deg, #4567C7 0%, #20242C 100%);
+
+  --glass-bg: rgb(255 255 255 / 82%);
+  --glass-border: #E1E5EB;
+
+  --shadow-glow: 0 0 60px -12px rgb(69 103 199 / 18%);
+  --shadow-glow-secondary: 0 0 50px -14px rgb(69 103 199 / 14%);
+  --shadow-glow-accent: 0 0 50px -14px rgb(69 103 199 / 20%);
+  --shadow-card: 0 20px 50px -20px rgb(32 36 44 / 14%);
+
+  --glow-primary: rgb(69 103 199 / 28%);
+  --glow-secondary: rgb(104 113 129 / 20%);
+  --glow-accent: rgb(69 103 199 / 28%);
+}
+
+.dark {
+  --background: #F5F6F8;
+  --foreground: #20242C;
+  --card: #FFFFFF;
+  --card-foreground: #20242C;
+  --popover: #FFFFFF;
+  --popover-foreground: #20242C;
+  --primary: #4567C7;
+  --primary-foreground: #FFFFFF;
+  --secondary: #EEF1F7;
+  --secondary-foreground: #46536B;
+  --muted: #EEF1F7;
+  --muted-foreground: #687181;
+  --accent: #4567C7;
+  --accent-foreground: #FFFFFF;
+  --border: #E1E5EB;
+  --input: #E1E5EB;
+  --ring: #4567C7;
 }
 
 @theme inline {
