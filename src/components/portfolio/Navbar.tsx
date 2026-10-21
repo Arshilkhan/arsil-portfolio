@@ -50,7 +50,7 @@ export function Navbar() {
           href="#contact"
           className="hidden rounded-full bg-[image:var(--gradient-brand)] px-5 py-2.5 text-sm font-semibold text-background shadow-[0_0_24px_-6px_var(--glow-secondary)] transition-transform hover:scale-105 md:inline-block"
         >
-          Hire Me
+          Contact me
         </a>
 
         <button
@@ -88,7 +88,7 @@ export function Navbar() {
                   onClick={() => setOpen(false)}
                   className="mt-2 block rounded-full bg-[image:var(--gradient-brand)] px-4 py-3 text-center text-sm font-semibold text-background"
                 >
-                  Hire Me
+                  Contact me
                 </a>
               </li>
             </ul>
