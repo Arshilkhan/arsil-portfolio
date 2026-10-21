@@ -1,5 +1,4 @@
 import { Reveal, SectionHeading } from "./Reveal";
-import { TECH_ICONS } from "./data";
 
 const FOCUS = [
   "Deep Learning",
@@ -54,26 +53,6 @@ export function About() {
               >
                 {f}
               </span>
-            ))}
-          </div>
-        </Reveal>
-
-        <Reveal delay={1} className="glass-card rounded-3xl p-8">
-          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-secondary">
-            Tech I work with
-          </h3>
-          <div className="mt-6 grid grid-cols-3 gap-x-4 gap-y-6 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9 xl:grid-cols-10">
-            {TECH_ICONS.map(({ icon: Icon, label }) => (
-              <div
-                key={label}
-                title={label}
-                className="group flex flex-col items-center gap-1.5"
-              >
-                <span className="grid h-12 w-12 place-items-center rounded-xl glass text-xl text-muted-foreground transition-all duration-300 group-hover:-translate-y-1 group-hover:text-secondary group-hover:shadow-[0_0_20px_-6px_var(--glow-secondary)]">
-                  <Icon />
-                </span>
-                <span className="text-[10px] text-muted-foreground">{label}</span>
-              </div>
             ))}
           </div>
         </Reveal>
