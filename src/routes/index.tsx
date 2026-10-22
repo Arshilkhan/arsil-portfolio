@@ -7,7 +7,7 @@ import { About } from "@/components/portfolio/About";
 import { Skills } from "@/components/portfolio/Skills";
 import { Projects } from "@/components/portfolio/Projects";
 import { Achievements } from "@/components/portfolio/Achievements";
-import { Education } from "@/components/portfolio/Education";
+// import { Education } from "@/components/portfolio/Education";
 // import { Certificates } from "@/components/portfolio/Certificates";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
@@ -54,7 +54,7 @@ function Index() {
         <Skills />
         <Projects />
         <Achievements />
-        <Education />
+        {/* <Education /> */}
         {/* <Certificates /> */}
         <Contact />
       </main>
