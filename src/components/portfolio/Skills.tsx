@@ -4,8 +4,8 @@ import { SKILL_GROUPS } from "./data";
 
 const ACCENT: Record<string, string> = {
   primary: "text-primary",
-  secondary: "text-secondary",
-  accent: "text-accent",
+  secondary: "text-primary",
+  accent: "text-primary",
 };
 
 const GLOW: Record<string, string> = {
@@ -26,27 +26,35 @@ export function Skills() {
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {SKILL_GROUPS.map((group, i) => {
           const Icon = group.icon;
+
           return (
             <Reveal key={group.title} delay={i} as="article">
               <motion.div
                 whileHover={{ y: -6 }}
-                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 300,
+                  damping: 20,
+                }}
                 className={`group h-full rounded-3xl glass-card p-7 transition-shadow duration-300 ${GLOW[group.accent]}`}
               >
                 <div className="flex items-center gap-3">
                   <span
-                    className={`grid h-12 w-12 place-items-center rounded-2xl bg-white/[0.04] text-2xl ${ACCENT[group.accent]}`}
+                    className={`grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-border bg-muted text-2xl ${ACCENT[group.accent]}`}
                   >
                     <Icon />
                   </span>
-                  <h3 className="text-lg font-semibold">{group.title}</h3>
+
+                  <h3 className="text-lg font-semibold text-foreground">
+                    {group.title}
+                  </h3>
                 </div>
 
                 <div className="mt-5 flex flex-wrap gap-2">
                   {group.skills.map((skill) => (
                     <span
                       key={skill}
-                      className="rounded-lg border border-border bg-white/[0.02] px-3 py-1.5 text-sm text-foreground/80 transition-colors group-hover:border-white/20"
+                      className="rounded-lg border border-border bg-muted px-3 py-1.5 text-sm text-foreground transition-colors duration-200 group-hover:border-primary/40"
                     >
                       {skill}
                     </span>

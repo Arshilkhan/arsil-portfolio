@@ -48,7 +48,7 @@ export function SectionHeading({
   return (
     <div className="mx-auto mb-14 max-w-2xl text-center">
       <Reveal>
-        <span className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-secondary">
+        <span className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-secondary-foreground">
           {eyebrow}
         </span>
       </Reveal>

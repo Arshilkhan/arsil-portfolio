@@ -28,7 +28,7 @@ export function About() {
         <Reveal className="glass-card rounded-3xl p-8">
           <p className="text-lg leading-relaxed text-foreground/90">
             I'm a{" "}
-            <span className="font-semibold text-secondary">
+            <span className="font-semibold text-secondary-foreground">
               Junior Software Developer and AI/ML Enthusiast
             </span>{" "}
             interested in building reliable software and intelligent systems
@@ -67,7 +67,7 @@ export function About() {
             {FOCUS.map((focus) => (
               <span
                 key={focus}
-                className="rounded-full border border-border bg-white/[0.03] px-3.5 py-1.5 text-sm text-foreground/80"
+                className="rounded-full border border-border bg-muted text-foreground px-3.5 py-1.5 text-sm"
               >
                 {focus}
               </span>

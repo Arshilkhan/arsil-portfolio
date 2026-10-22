@@ -57,7 +57,7 @@ export function Contact() {
               rel="noreferrer"
               className="group flex items-center gap-4 rounded-2xl glass-card p-5 transition-colors hover:border-secondary/40"
             >
-              <span className="grid h-12 w-12 place-items-center rounded-xl bg-white/[0.04] text-xl text-secondary">
+              <span className="grid h-12 w-12 place-items-center rounded-xl text-xl bg-muted text-primary">
                 <Icon />
               </span>
               <div className="min-w-0">
@@ -70,7 +70,7 @@ export function Contact() {
           ))}
 
           <div className="flex items-center gap-4 rounded-2xl glass-card p-5">
-            <span className="grid h-12 w-12 place-items-center rounded-xl bg-white/[0.04] text-xl text-accent">
+            <span className="grid h-12 w-12 place-items-center rounded-xl bg-muted text-primary text-xl text-accent">
               <MapPin />
             </span>
             <div>
@@ -84,7 +84,7 @@ export function Contact() {
           <a
             href="/resume.pdf"
             download
-            className="inline-flex items-center justify-center gap-2 rounded-2xl bg-[image:var(--gradient-brand)] px-6 py-4 text-sm font-semibold text-background shadow-[0_0_28px_-8px_var(--glow-primary)] transition-transform hover:scale-[1.02]"
+            className="inline-flex items-center justify-center gap-2 rounded-2xl bg-primary text-primary-foreground px-6 py-4 text-sm font-semibold shadow-[0_0_28px_-8px_var(--glow-primary)] transition-transform hover:scale-[1.02]"
           >
             <Download size={18} /> Download Resume
           </a>
@@ -102,7 +102,7 @@ export function Contact() {
                   name="name"
                   required
                   placeholder="Your name"
-                  className="w-full rounded-xl border border-input bg-white/[0.03] px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-secondary/60"
+                  className="w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
                 />
               </div>
               <div>
@@ -115,7 +115,7 @@ export function Contact() {
                   type="email"
                   required
                   placeholder="you@example.com"
-                  className="w-full rounded-xl border border-input bg-white/[0.03] px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-secondary/60"
+                  className="w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
                 />
               </div>
             </div>
@@ -128,7 +128,7 @@ export function Contact() {
                 name="subject"
                 required
                 placeholder="What's this about?"
-                className="w-full rounded-xl border border-input bg-white/[0.03] px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-secondary/60"
+                className="w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
               />
             </div>
             <div>
@@ -141,13 +141,13 @@ export function Contact() {
                 required
                 rows={5}
                 placeholder="Tell me about your project or opportunity..."
-                className="w-full resize-none rounded-xl border border-input bg-white/[0.03] px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-secondary/60"
+                className="w-full resize-none rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-primary"
               />
             </div>
             <button
               type="submit"
               disabled={sending}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[image:var(--gradient-brand)] px-6 py-3.5 text-sm font-semibold text-background shadow-[0_0_28px_-8px_var(--glow-secondary)] transition-transform hover:scale-[1.01] disabled:opacity-70"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary text-primary-foreground px-6 py-3.5 text-sm font-semibold shadow-[0_0_28px_-8px_var(--glow-secondary)] transition-transform hover:scale-[1.01] disabled:opacity-70"
             >
               <Send size={17} /> {sending ? "Sending..." : "Send Message"}
             </button>

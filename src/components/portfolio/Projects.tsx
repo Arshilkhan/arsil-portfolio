@@ -74,7 +74,7 @@ export function Projects() {
 
                 {/* Featured project indicator */}
                 {isFeatured && (
-                  <div className="mb-5 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-secondary">
+                  <div className="mb-5 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-primary">
                     <Sparkles size={14} />
                     Featured Project
                   </div>
@@ -87,7 +87,7 @@ export function Projects() {
                   {/* Main project information */}
                   <div className="flex flex-col">
                     <div className="flex items-center justify-between gap-3">
-                      <span className="inline-flex w-fit items-center gap-1.5 rounded-full border border-secondary/30 px-3 py-1 text-xs font-semibold text-secondary">
+                      <span className="inline-flex w-fit items-center gap-1.5 rounded-full border border-border bg-muted text-secondary-foreground px-3 py-1 text-xs font-semibold">
                         <Sparkles size={12} />
                         {project.tag}
                       </span>
@@ -110,7 +110,7 @@ export function Projects() {
                       {project.features.map((feature) => (
                         <span
                           key={feature}
-                          className="rounded-md border border-border/60 bg-white/[0.04] px-2.5 py-1 text-xs text-foreground/75"
+                          className="rounded-md border border-border/60 bg-muted text-foreground px-2.5 py-1 text-xs"
                         >
                           {feature}
                         </span>
@@ -135,7 +135,7 @@ export function Projects() {
                       {visibleTech.map((technology) => (
                         <span
                           key={technology}
-                          className="max-w-full rounded-lg border border-secondary/15 bg-secondary/[0.05] px-2.5 py-1.5 text-xs font-medium text-secondary/90 [overflow-wrap:anywhere]"
+                          className="max-w-full rounded-lg border border-border bg-muted text-secondary-foreground px-2.5 py-1.5 text-xs font-medium [overflow-wrap:anywhere]"
                         >
                           {technology}
                         </span>
